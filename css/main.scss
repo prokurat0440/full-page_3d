@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 
-@keyframes mainAnimation {
+@keyframes main-animation {
     from{
         transform: translate(0);
     }
@@ -261,7 +261,7 @@
         }
     }
     .main{
-        animation: mainAnimation 1s ease;
+        animation: main-animation 1s ease;
         cursor: pointer; 
         transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
         &:hover{

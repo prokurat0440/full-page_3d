@@ -3,7 +3,7 @@ const container = document.querySelector('.container')
 const screens = document.querySelectorAll('.screen')
 
 burger.addEventListener('click', () => {
-    container.classList.toogle('active')
+    container.classList.toggle('active')
 })
 
 changeBg()
@@ -18,7 +18,7 @@ function changeBg() {
         })
         link.addEventListener('click', e => {
             e.preventDefault()
-            container.classList.toogle('active')
+            container.classList.toggle('active')
         })
     })
 
